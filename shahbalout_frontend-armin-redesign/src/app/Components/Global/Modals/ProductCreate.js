@@ -1,0 +1,16 @@
+const [productObj, setProductObj] = useState({
+    persianName: null,
+    englishName: null,
+    package: [],
+    priceIrr: 0,
+    priceAed: 0,
+    priceDollar: 0,
+    discountIrr: 0,
+    discountAed: 0,
+    discountDollar: 0,
+    brand: null,
+    category: null,
+    persianDescription: '',
+    englishDescription: '',
+    productModel: '',
+});
